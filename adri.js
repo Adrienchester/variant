@@ -199,7 +199,7 @@ import { Mesh, Program, Texture } from 'ogl'
 import fragment from './fragment.glsl'
 import vertex from './vertex.glsl'
 
-export class Media {
+export class grosseshit {
   constructor ({ element, geometry, gl, height, scene, screen, viewport }) {
     this.element = element
     this.image = this.element.querySelector('img')
