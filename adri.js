@@ -1,5 +1,5 @@
 import { Renderer, Camera, Transform, Plane } from 'https://cdn.jsdelivr.net/npm/ogl@1.0.3/src/index.js'
-import NormalizeWheel from 'normalize-wheel'
+import NormalizeWheel from 'https://cdn.jsdelivr.net/npm/normalize-wheel@1.0.1/index.min.js'
 
 import { lerp } from 'utils/math'
 
