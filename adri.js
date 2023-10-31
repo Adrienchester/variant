@@ -1,4 +1,4 @@
-import { Renderer, Camera, Transform, Plane } from 'ogl'
+import { Renderer, Camera, Transform, Plane } from 'https://cdn.jsdelivr.net/npm/ogl@1.0.3/src/index.js'
 import NormalizeWheel from 'normalize-wheel'
 
 import { lerp } from 'utils/math'
@@ -194,10 +194,10 @@ export default class App {
 }
 
 
-import { Mesh, Program, Texture } from 'ogl'
+import { Mesh, Program, Texture } from 'https://cdn.jsdelivr.net/npm/ogl@1.0.3/src/index.js'
 
-import fragment from './fragment.glsl'
-import vertex from './vertex.glsl'
+import fragment from 'https://cdn.jsdelivr.net/gh/Adrienchester/variant@main/fragment.glsl'
+import vertex from 'https://cdn.jsdelivr.net/gh/Adrienchester/variant@main/vertex.glsl'
 
 export class grosseshit {
   constructor ({ element, geometry, gl, height, scene, screen, viewport }) {
