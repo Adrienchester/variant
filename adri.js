@@ -3,7 +3,6 @@ import NormalizeWheel from 'https://cdn.jsdelivr.net/npm/normalize-wheel@1.0.1/i
 
 import { lerp } from 'https://cdn.jsdelivr.net/gh/Adrienchester/variant@main/math.js'
 
-import Media from './demo-1/Media'
 
 export default class App {
   constructor () {
