@@ -1,7 +1,7 @@
 import { Renderer, Camera, Transform, Plane } from 'https://cdn.jsdelivr.net/npm/ogl@1.0.3/src/index.js'
 import NormalizeWheel from 'https://cdn.jsdelivr.net/npm/normalize-wheel@1.0.1/index.min.js'
 
-import { lerp } from 'utils/math'
+import { lerp } from 'https://cdn.jsdelivr.net/gh/Adrienchester/variant@main/math.js'
 
 import Media from './demo-1/Media'
 
